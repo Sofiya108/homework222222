@@ -1,0 +1,75 @@
+<!doctype html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" 
+			content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+		<title>Homework 2</title>
+	</head>
+	<body>
+		<h1> Домашне завдання до уроку - 3</h1>
+		<table cellspacing="5" cellpadding="10" border="1" width="70%">
+			<thead align ="left" bgcolor="#6666cc">
+				<tr>
+					<th>Ім'я</th>
+					<th>Прізвище</th>
+					<th>Телефон</th>
+					<th>Email</th>
+				</tr>
+			</thead>
+			<tbody bgcolor="#9999ff">
+				<tr>
+					<td>Михайло</td>
+					<td>Лазарев</td>
+					<td>21-3-436</td>
+					<td>1234@gmail.com</td>
+				</tr>
+				<tr>
+					<td>Іван</td>
+					<td>Іванов</td>
+					<td>51-5-464</td>
+					<td>2134@gmail.com</td>
+				</tr>
+				<tr>
+					<td>Миколай</td>
+					<td>Петров</td>
+					<td>24-5-456</td>
+					<td>4321@gmail.com</td>
+				</tr>
+				<tr>
+					<td>Дмитро</td>
+					<td>Соловей</td>
+					<td>65-7-774</td>
+					<td>4123@gmail.com</td>
+				</tr>
+			</tbody>
+		</table>
+		<br/>
+		<input type="text" placeholder="Введите ваше имя"/><br>
+		<br>	
+		<input type="text" placeholder="Введите вашу фамилию"/>
+		
+		<h3>Какой ваш пол?</h3>
+		<h3><input type="radio" name="gender" value="m"/>M</h3>
+		<h3><input type="radio" name="gender" value="w"/>Ж</h3>
+	
+		<br><textarea placeholder="Напишите свой вопрос" name="question" cols="30" rows="5"></textarea><br>
+		
+		<br>
+		<input list="town" value="Выберите город">
+		<datalist id="town">
+			<option value="Одесса">Одесса</option>
+			<option value="Киев">Киев</option>
+			<option value="Харьков">Харьков</option>
+			<option value="Львов">Львов</option>
+		</datalist>
+		<br>
+		
+		<h3>Выбор языка:</h3>
+		<input type="checkbox" name="lenguage" value="uk"/><b>Українська</b><br/>
+		<input type="checkbox" name="lenguage" value="ru"/><b>Русский</b><br/>
+		<input type="checkbox" name="lenguage" value="en"/><b>English</b><br/>
+		<br>
+		<input type="submit" value="Отправить">
+	</body>
+</html>
